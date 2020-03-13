@@ -3,7 +3,7 @@ class Bird{
   float posY = height/2 ,vel = 1;
   float gravity = 0.5;
   float pull = 0;
-  float dia = 40;
+  float dia = 35;
   Bird(){
     
   }
@@ -31,7 +31,6 @@ class Bird{
     
     ellipse(posX,posY,dia,dia);
     pull = 0;
-    println(posY);
   }
   
   
